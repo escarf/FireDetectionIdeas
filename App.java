@@ -21,7 +21,7 @@ public class App {
 			gui.showGUI();
 			String userAction = gui.getLastUserAction();
 				//there might be a better way to do this
-			
+			userAction = "train";
 			if(userAction.equals("train")) {
 				
 			}
@@ -32,7 +32,7 @@ public class App {
 			//if timer.elapsedTime >= 300 000 
 				//have adapter get image from API
 				//resetTimer
-		
+			quitProgram = true;
 		}
 		
 	}
