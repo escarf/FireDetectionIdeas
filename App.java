@@ -20,7 +20,7 @@ public class App {
 			
 			gui.showGUI();
 			String userAction = gui.getLastUserAction();
-				//there might be a better way to do this
+				//there might be a better way to do this...
 			userAction = "train";
 			if(userAction.equals("train")) {
 				
